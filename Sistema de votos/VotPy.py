@@ -1,4 +1,5 @@
 import os
+#opções para votos / seus valores = 0
 php, js, py, vb = 0, 0, 0, 0
 
 def vot():
@@ -26,4 +27,5 @@ for i in range(0, 10):
     vot()
 
 os.system("cls")
+#resultado final Linguagem + pontos
 print("\nResultado:\nPHP: "+str(php) + "\nPython: "+str(py) + "\nJavaScript: "+str(js)+"\nvb: "+str(vb)) 
